@@ -1,0 +1,9 @@
+# Compressed src
+dcmtk*.tar.gz
+
+# Main src dir
+dcmtk
+
+# Build src dirs
+dcmtk_*
+

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Dicom.Core">
+      <HintPath>Dicom.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  
+<!--
+-->
+
+  <ItemGroup>
+    <ProjectReference Include="..\sharpfuzz\src\SharpFuzz\SharpFuzz.csproj" />
+<!--
+    <ProjectReference Include="..\fo-dicom\Platform\Mono\DICOM.Mono.csproj" />
+-->
+  </ItemGroup>
+
+</Project>
+
